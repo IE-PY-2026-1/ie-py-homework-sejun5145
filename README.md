@@ -63,10 +63,10 @@
 해결: print() 함수 내에서 \n 이스케이프 시퀀스를 적절히 사용하여 변수 출력 간의 줄바꿈을 일관성 있게 정리함.
     
 ### **📁 증빙 자료:**
-  * [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  [* [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/1%EC%B0%A8%20%EA%B3%BC%EC%A0%9C%20%EB%82%B4%EC%9A%A9%2C%20%20ai%20%ED%98%91%EC%9D%98%20%EA%B3%BC%EC%A0%95%20%EC%B5%9C%EC%B5%9C%EC%A2%85.pdf
 
-
-<br>
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%20%EC%B5%9C%EC%B5%9C%EC%A2%85.pdf
 
 ## 🟩 [2차 과제: V1.0] 입출력 + 리스트 + 조건문 - 향후 작성 예정
 ### **✨2차 과제 내용:**
