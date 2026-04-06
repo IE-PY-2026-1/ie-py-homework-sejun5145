@@ -68,6 +68,8 @@ https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/1%EC%B0%A8%20
 
 https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%20%EC%B5%9C%EC%B5%9C%EC%A2%85.pdf
 
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/%EC%BD%94%EB%93%9C.pdf
+
 ## 🟩 [2차 과제: V1.0] 입출력 + 리스트 + 조건문 - 향후 작성 예정
 ### **✨2차 과제 내용:**
 (예시)
