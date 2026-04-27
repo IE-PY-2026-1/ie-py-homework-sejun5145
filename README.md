@@ -108,6 +108,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/%EC%BD%94%EB%
      
 ### **📁 증빙 자료:**
   * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/2%EC%B0%A8%20%ED%98%91%EC%9D%98%20%EB%82%B4%EC%9A%A9.pdf
   * [2차과제_실행결과.jpg]
 <br>
 
