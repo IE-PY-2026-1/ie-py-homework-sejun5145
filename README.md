@@ -110,7 +110,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/%EC%BD%94%EB%
   * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
   * https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/main/2%EC%B0%A8%20%ED%98%91%EC%9D%98%20%EB%82%B4%EC%9A%A9.pdf
   * [2차과제_실행결과.jpg]
-<br>
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/tree/main
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
 ### **✨3차 과제 업데이트 내용:**
@@ -148,9 +148,9 @@ while True를 이용해 메인 메뉴를 지속적으로 띄워주는 무한 루
      
 ### **📁 증빙 자료:**
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-  * https://1drv.ms/f/c/6f455e6ba66216da/IgC72pL6Oi_6T4YwUbNjtPUQARNYoxDFYBC56OOcqJp-WhY?e=ybbe0l
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/tree/main
   * [3차과제_실행결과.jpg]
-<br>
+https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/tree/main
 
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성 -- 향후 작성 예정
 ### **✨4차 과제 업데이트 내용:**
