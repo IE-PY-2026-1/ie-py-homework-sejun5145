@@ -148,6 +148,7 @@ while True를 이용해 메인 메뉴를 지속적으로 띄워주는 무한 루
      
 ### **📁 증빙 자료:**
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * https://1drv.ms/f/c/6f455e6ba66216da/IgC72pL6Oi_6T4YwUbNjtPUQARNYoxDFYBC56OOcqJp-WhY?e=ybbe0l
   * [3차과제_실행결과.jpg]
 <br>
 
