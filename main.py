@@ -78,3 +78,94 @@ if valid_count > 0:
         print("✅ [안전] 예산을 잘 관리하고 있습니다. 훌륭해요!")
 else:
     print("\n기록된 유효한 지출 내역이 없습니다.")
+
+
+
+
+expense_list = []
+current_budget = 0
+initial_budget = 0
+danger_ratio = 0.0
+
+# [요구사항 2] 함수 1: 메인 메뉴 출력 함수
+def display_menu():
+    print("\n" + "="*30)
+    print(" 1. 지출 내역 등록")
+    print(" 2. 지출 요약 및 상태 분석")
+    print(" 0. 프로그램 종료")
+    print("="*30)
+
+# [요구사항 2, 3, 5] 함수 2: 지출 등록 함수 (매개변수 사용, global 사용)
+def add_expense(expense_amount):
+    global current_budget  # 전역 변수 수정 권한 부여
+    
+    if expense_amount < 0:
+        print("음수는 지출로 등록할 수 없습니다.")
+    else:
+        expense_list.append(expense_amount)
+        current_budget -= expense_amount
+        print(f"[{expense_amount}원] 지출이 정상적으로 등록되었습니다.")
+
+# [요구사항 2, 3, 4] 함수 3: 예산 상태 판별 함수 (매개변수 사용, return 사용)
+def evaluate_budget_status(remain, initial, danger_rate):
+    ratio = remain / initial
+    
+    # 처리 결과를 return 문을 통해 반환
+    if remain < 0:
+        return "🚨 [경고] 예산을 초과했습니다! 파산 상태입니다."
+    elif ratio <= danger_rate:
+        return "⚠️ [주의] 잔여 예산이 위험 수준입니다! 과소비를 자제하세요."
+    else:
+        return "✅ [안전] 예산을 잘 관리하고 있습니다. 훌륭해요!"
+
+# [요구사항 2] 함수 4: 통계 출력 함수 (내부에서 함수 3 호출)
+def show_statistics():
+    valid_count = len(expense_list)
+    
+    if valid_count > 0:
+        total_expense = sum(expense_list)
+        max_expense = max(expense_list)
+        remain_ratio = current_budget / initial_budget
+        
+        print(f"\n=== [지출 요약 통계] ===")
+        print(f"등록된 총 지출 건수: {valid_count}건")
+        print(f"가장 큰 단일 지출 금액: {max_expense}원")
+        print(f"총 지출 금액: {total_expense}원")
+        print(f"남은 예산: {current_budget}원 (잔여 비율: {remain_ratio*100:.1f}%)")
+        
+        # return 값을 받아와서 출력
+        status_message = evaluate_budget_status(current_budget, initial_budget, danger_ratio)
+        print(status_message)
+    else:
+        print("\n기록된 지출 내역이 없습니다.")
+
+# ==========================================
+# 메인 프로그램 로직 (while 문 내부를 목차처럼 간결하게)
+# ==========================================
+print("=== 스마트 캠퍼스 가계부 V2.0 시작 ===")
+user_name = input("사용자 이름을 입력하세요: ")
+initial_budget = int(input("이번 달 목표 총예산을 입력하세요 (원): "))
+danger_ratio = float(input("위험 경고 기준 비율을 소수점으로 입력하세요 (예: 20% -> 0.2): "))
+
+current_budget = initial_budget  # 초기 예산 세팅
+
+# [요구사항 1] while True 무한 루프 및 break 활용
+while True:
+    display_menu()
+    choice = input("원하시는 메뉴 번호를 선택하세요: ")
+    
+    if choice == '1':
+        amount = int(input("지출 금액을 입력하세요: "))
+        add_expense(amount)  # 함수 호출
+        
+    elif choice == '2':
+        show_statistics()  # 함수 호출
+        
+    elif choice == '0':
+        print(f"\n{user_name}님의 가계부 프로그램을 안전하게 종료합니다. 이용해 주셔서 감사합니다!")
+        break  # 사용자 '종료' 선택 시에만 break
+        
+    else:
+        print("잘못된 입력입니다. 0, 1, 2 중에서 선택해 주세요.")
+
+
