@@ -187,6 +187,6 @@ https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/tree/main
 
 💡 제출 전 체크리스트
 ### **📁 증빙 자료:**
-  * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-  * [4차과제_실행결과.jpg]
+  * [4차_AI협업캡처.pdf 첨부 완료] https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/blob/e8301bcb090a9ab1749223481cbf7f9b1963d918/AI%ED%98%91%EC%97%85%20%EC%A6%9D%EB%AA%854.pdf
+  * [4차과제_실행결과.jpg] https://github.com/IE-PY-2026-1/ie-py-homework-sejun5145/tree/e8301bcb090a9ab1749223481cbf7f9b1963d918/4%EC%B0%A8%EA%B3%BC%EC%A0%9C%20%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC
 <br>
